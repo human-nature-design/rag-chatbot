@@ -1,3 +1,7 @@
+-- Create extension for vector
+CREATE EXTENSION IF NOT EXISTS vector;
+
+-- Create table for resources
 CREATE EXTENSION IF NOT EXISTS vector;
 
 CREATE TABLE IF NOT EXISTS "resources" (

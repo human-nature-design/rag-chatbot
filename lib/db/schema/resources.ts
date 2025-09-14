@@ -5,6 +5,7 @@ import { z } from "zod";
 
 import { nanoid } from "@/lib/utils";
 
+// Table for resources
 export const resources = pgTable("resources", {
   id: varchar("id", { length: 191 })
     .primaryKey()
